@@ -7,4 +7,4 @@ PORT = 8080
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-s.connect
+s.connect((HOST, PORT))
